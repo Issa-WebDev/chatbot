@@ -124,5 +124,5 @@ button:hover {
 }
 
 button:focus {
-  outline: none;
+  outline: 3px solid #3551a0;
 }

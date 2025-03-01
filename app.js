@@ -5,6 +5,7 @@ const chatBox = document.getElementById("chat-box");
 // FAIRE LA REQUÊTES
 async function getResponse() {
   const apiKey = "AIzaSyAmzItPdnxMCDJnI8GohFnz3AS9-M6gavA"; // Gemini API KEY
+  // const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
   const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
   // Corps de la requête API avec le contexte
@@ -26,6 +27,8 @@ async function getResponse() {
     ],
   };
 
+  // ajax ===> fetch
+  
   try {
     const response = await fetch(apiUrl, {
       method: "POST",
