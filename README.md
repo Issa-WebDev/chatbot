@@ -1,4 +1,4 @@
 # Projet de prairie (chatbot 🤙)
 
-[text](https://aistudio.google.com/apikey)
+[Gemini api](https://aistudio.google.com/apikey)
 
